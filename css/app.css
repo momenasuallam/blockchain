@@ -476,8 +476,8 @@ margin-bottom: 0px;
 .Discoveryd{
   background: transparent linear-gradient(111deg, #4BCCE6 0%, #B1ECF7 100%) 0% 0% no-repeat padding-box;
       position: absolute;
-    top: 10vw;
-    left: 7vw;
+    top: 6vw;
+    left: 16vw;
 }
 .designphased{
   background: transparent linear-gradient(110deg, #FFD8CB 0%, #F9D29D 100%) 0% 0% no-repeat padding-box;
@@ -1221,13 +1221,13 @@ width: 130px !important;
     padding: 13px 20px;
 }
 .headleft{
-  top: 11vw;
+  top: 9vw;
 }
 .headleft img {
     width: 14vw;
 }
 .headright{
-  top: -4vw;
+  top: -5vw;
 }
 .headright img {
     width: 14.5vw;
