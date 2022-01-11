@@ -421,12 +421,12 @@ textarea{
   color: #fff;
 }
 .modlrow1 input{
-  font-size: 12px;
+  font-size: 15px;
   padding: 6px 10px;
   margin-bottom: 6px;
 }
 .modlrow1 textarea{
-  font-size: 12px;
+  font-size: 15px;
 }
 ::placeholder{
   color: #FFFFFF74;
@@ -685,7 +685,7 @@ font-weight: 600;
 width: 25px;
 }
 .modal-dialog {
-    max-width: 500px;
+    max-width: 630px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -772,7 +772,7 @@ display: flex;
 padding: 20px 12px 10px;
 }
 .modalmainflex img{
-  width: 150px;
+  width: 170px;
   border-radius: 17px;
 }
 .modal-body {
@@ -811,13 +811,13 @@ color: #F8F9D2;
 }
 .txtdivmodl ul li{
 color: #FFFFFF;
-font-size: 12px;
+font-size: 14px;
   letter-spacing: 1.08px;
   font-weight: 100;
 }
 .txtdivmodl p{
 color: #FFFFFF;
-font-size: 12px;
+font-size: 14px;
   letter-spacing: 1.08px;
   font-weight: 100;
   margin-bottom: 10px;
@@ -832,7 +832,7 @@ font-size: 12px;
 }
 .mdlbtncl{
   background: #EC3B5F 0% 0% no-repeat padding-box;
-    padding: 12px 12px 15px;
+    padding: 20px 22px 32px;
     border-radius: 11px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -840,13 +840,13 @@ position: absolute;
     right: 0;
 }
 .mdlbtncl .btn-close{
-font-size: 14px;
+font-size: 18px;
 position: relative;
     top: 2px;
     left: -3px;
 }
 .thinkingcollectingmodal .modal-dialog {
-    max-width: 480px;
+    max-width: 600px;
 }
 .thinkingcollectingmodal .modal-body{
   background: #151527 0% 0% no-repeat padding-box;
@@ -856,7 +856,7 @@ border: 4px solid #EC3B5F;
     top: 7px;
     /* border-top-right-radius: 0px; */
     padding: 3rem;
-    height: 22rem;
+    height: 26rem;
 }
 .formdiv2{
 
@@ -866,7 +866,7 @@ border: 4px solid #EC3B5F;
 }
 .formdiv2 h2{
   color: #FFFFFF;
-      font-size: 16px;
+      font-size: 18px;
     font-weight: 100;
     text-align: center;
     margin-bottom: 2rem;
@@ -893,7 +893,7 @@ margin: 0 auto 2rem;
 .formdiv2 label{
   color: #FFFFFF93;
   font-weight: 200;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 6px;
 }
 .styled-checkbox {
@@ -962,6 +962,8 @@ position: absolute;
 }
 .btngroupstate a{
 margin: 0;
+font-size: 18px;
+width: 130px !important;
 }
 .backbtn{
   background: #2C2C3E 0% 0% no-repeat padding-box;
@@ -971,14 +973,20 @@ margin: 0;
   font-weight: 200;
 }
 .formstate1 .modlrow1{
-  width: 400px;
+  max-width: 450px;
   position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 6rem;
+    top: 8rem;
+}
+.formstate3 .modlrow1{
+  padding: 0 3rem;
+}
+.formstate4 .modlrow1{
+  padding: 0 5rem;
 }
 .formstate5 .modlrow1 {
-    width: 235px;
+    width: 265px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -989,7 +997,7 @@ margin: 0;
   
 }
 .formstate6 .contactusform{
-  max-width: 275px;
+  max-width: 325px;
 }
 .modlrow1{
   position: absolute;
@@ -1005,7 +1013,7 @@ margin: 0;
   margin-top: 30px;
 }
 
-@media(min-width:1300px){
+@media(min-width:1350px){
   .headleft img {
     width: 12vw;
 }
@@ -1170,7 +1178,7 @@ margin: 0;
   font-size: 17px;
 }
 .modal-dialog{
-  max-width: 650px;
+  max-width: 750px;
 }
 .modal-title{
   font-size: 24px;
@@ -1191,7 +1199,7 @@ margin: 0;
   padding: 0 5%;
 }
 }
-@media(max-width: 1300px){
+@media(max-width: 1350px){
   .headcentertxt {
     max-width: 700px;
     margin: 5vw auto 7vw;
@@ -1500,6 +1508,63 @@ position: unset;
 .modal-header .btn-close{
   font-size: 10px;
 }
+.formdiv2 h2{
+  font-size: 11px;
+}
+.formdiv2 label{
+  font-size: 11px;
+}
+.formstate3 .modlrow1 {
+    padding: 0 0rem;
+    padding-left: 1rem;
+}
+.formstate5 .modlrow1 {
+    left: 63%;
+    top: 22%;
+}
+
+
+.btngroupstate a {
+    font-size: 12px;
+    width: 90px !important;
+    padding: 10px 16px;
+}
+.formstate4 .modlrow1 {
+    padding: 0 3rem;
+}
+.modlrow1 input {
+    font-size: 12px;
+}
+.modlrow1 textarea {
+    font-size: 12px;
+}
+.thinkingcollectingmodal .modal-body{
+  height: 21rem;
+}
+.formdiv2 h2{
+  top: 1.5rem;
+}
+.btngroupstate{
+  bottom: 1rem;
+}
+.mdlbtncl {
+    padding: 5px 14px 10px;
+}
+.formstate1 .modlrow1{
+  top: 5rem;
+}
+}
+@media(min-width:600px){
+  .styled-checkbox + label::before{
+    width: 25px;
+    height: 25px;
+  }
+  .styled-checkbox:checked + label:after {
+    left: 7px;
+    top: 11px;
+    width: 3px;
+    height: 3px;
+  }
 }
 @media(max-width:450px)
 {
